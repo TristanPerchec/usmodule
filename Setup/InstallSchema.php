@@ -20,7 +20,7 @@ class InstallSchema implements \Magento\Framework\Setup\InstallSchemaInterface
 
         $installer->startSetup();
 
-        if (!$installer->getConnection()->isTableExists($installer->getTable('iiyama_us'))) {
+        if (!$installer->getConnection()->isTableExists($installer->getTable('iiyama_usmodule'))) {
             $table = $installer->getConnection()->newTable(
                 $installer->getTable('iiyama_usmodule')
             )->addColumn(
