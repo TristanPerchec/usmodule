@@ -1,0 +1,29 @@
+{
+  "name": "tristanperchec/usmodule",
+  "description": "N/A",
+  "require": {
+    "php": "~7.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Tristan",
+      "email": "tpc@synolia.com",
+      "homepage": "https://www.synolia.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Tristanperchec\\Usmodule\\": ""
+    }
+  }
+}
